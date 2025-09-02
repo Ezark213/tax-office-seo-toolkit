@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-石井公認会計士・税理士事務所様向け設定例
-実際のアンケート回答に基づいたSEO戦略設定
+税理士事務所向けSEO設定例
+実際の運用ケースに基づいたSEO戦略設定
 """
 
 import sys
@@ -15,16 +15,16 @@ from config.office_settings import *
 from config.keyword_database import get_target_keywords_for_office
 from tools.keyword_analyzer import KeywordAnalyzer
 
-def setup_ishii_office_seo():
-    """石井事務所向けSEO設定のセットアップ"""
+def setup_sample_office_seo():
+    """サンプル事務所向けSEO設定のセットアップ"""
     
-    print("🏢 石井公認会計士・税理士事務所様 SEO戦略セットアップ")
+    print("🏢 サンプル税理士事務所 SEO戦略セットアップ")
     print("=" * 60)
     
     # アンケート回答に基づく設定
     office_data = {
         "basic_info": {
-            "name": "石井公認会計士・税理士事務所",
+            "name": "サンプル公認会計士・税理士事務所",
             "location": "千葉県流山市",
             "established": "2022年",
             "current_inquiries": "0-2件/月",
@@ -96,7 +96,7 @@ def setup_ishii_office_seo():
     return office_data
 
 def generate_keyword_strategy():
-    """石井事務所向けキーワード戦略の生成"""
+    """サンプル事務所向けキーワード戦略の生成"""
     
     print("\n🔍 キーワード戦略生成中...")
     
@@ -251,7 +251,7 @@ def main():
     """メイン実行関数"""
     
     # 基本設定
-    office_data = setup_ishii_office_seo()
+    office_data = setup_sample_office_seo()
     
     # キーワード戦略
     keywords, monthly_content = generate_keyword_strategy()
@@ -263,7 +263,7 @@ def main():
     action_plan = generate_action_plan()
     
     print("\n" + "=" * 60)
-    print("✅ 石井公認会計士・税理士事務所様向けSEO戦略セットアップ完了！")
+    print("✅ サンプル税理士事務所向けSEO戦略セットアップ完了！")
     
     print(f"\n📊 期待される効果（3ヶ月後）:")
     print(f"  - 月間問い合わせ数: 0-2件 → 4-6件")
@@ -278,7 +278,7 @@ def main():
     
     print(f"\n💡 成功のカギ:")
     print(f"  - 継続的なコンテンツ投稿（完璧より継続）")
-    print(f"  - 石井事務所の強み（診断士・IT経験・バックオフィス）を活かした差別化")
+    print(f"  - 事務所の強み（診断士・IT経験・バックオフィス）を活かした差別化")
     print(f"  - 夫婦のコラボレーション体制を活用した効率的な記事作成")
 
 if __name__ == "__main__":

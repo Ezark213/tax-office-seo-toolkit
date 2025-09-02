@@ -25,9 +25,9 @@ class TargetCustomer:
     description: str
     keywords: List[str]
 
-# 石井公認会計士・税理士事務所様の設定例
-ISHII_OFFICE = OfficeInfo(
-    name="石井公認会計士・税理士事務所",
+# サンプル税理士事務所の設定例
+SAMPLE_OFFICE = OfficeInfo(
+    name="サンプル公認会計士・税理士事務所",
     location="千葉県流山市",
     prefecture="千葉県",
     city="流山市",
